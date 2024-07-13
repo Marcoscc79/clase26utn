@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import ListaDeAlumnos1 from './1ListaDeAlumnos'
+import ListaDeAlumnos2 from './2Iteracion'
+import ListaDeAlumnos3 from './3ListaDeAlumnos'
+import CicloDeVida from './4ComponenteEjemplo'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h2>Ejemplo Listas</h2>
+      <ListaDeAlumnos1 />
+      <h2>Ejemplo Iteración</h2>
+      <ListaDeAlumnos2 centrado="center" sinViñeta="none"/>
+      <h2>Ejemplo Keys Prop</h2>
+      <ListaDeAlumnos3 />
+      <h2>Ejemplo Ciclo de vida</h2>
+      <CicloDeVida />
     </div>
-  );
+  )
 }
+export default App
 
-export default App;
