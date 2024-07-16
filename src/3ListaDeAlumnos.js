@@ -5,7 +5,8 @@ function ListaDeAlumnos3() {
     { id: 1, nombre: 'Paola'},
     { id: 2, nombre: 'Agustín'},
     { id: 3, nombre: 'Thomas'},
-    { id: 4, nombre: 'Ariadna .'}
+    { id: 4, nombre: 'Ariadna .'},
+    { id: 5, nombre: 'Pilar'}
   ]
   return (
     <div>
